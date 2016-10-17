@@ -1,0 +1,56 @@
+
+/* Basic */
+
+	body,input,textarea,select
+	{
+		font-size: 17pt;
+	}
+
+/* width of the boxes by container*/
+    .container
+	{
+		padding: 0 2em 0 2em;
+        width:900px;
+	}
+    .container1
+    {
+        width: 500px;
+    }
+
+/*grid view properties*/
+.grv
+{
+    margin-top:40px;
+    grid-cell:inherit;
+    color:#838383;
+    grid-column-span:15px;
+}  
+ 	
+/* Header  */
+	#header
+	{
+		width: 300px;
+	}	
+
+/* Footer  */
+	#footer
+	{
+		margin-left: 300px;
+	}	
+
+/* Main  */
+	#main
+	{
+		margin-left: 300px;
+	}
+
+    /* Table */
+    .table
+    {
+        border:2px double solid green;
+    }
+    .textbox
+    {
+        border-width:1px;
+        width:auto;
+    }
