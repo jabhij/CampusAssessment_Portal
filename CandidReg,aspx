@@ -1,0 +1,90 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false" AutoEventWireup="true" CodeFile="CandidReg.aspx.cs" Inherits="CandidReg" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div id="main">
+       <section id="contact" class="four">
+			<div class="container">
+                                <header>
+                                    <h2>Candidate | Sign Up</h2>
+                                </header>
+
+                <!-- Candidate Registration -->
+                         <form method="post" action="CandidPro.aspx">
+                             <div class="callign">
+								<div class="row half">
+									<div class="6u">
+                                        <asp:TextBox ID="Txtname" runat="server" placeholder="*Name" class="text">
+                                        </asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+                                            ControlToValidate="Txtname" ErrorMessage="Your Name Please!" ForeColor="#FF5050">
+                                        </asp:RequiredFieldValidator>
+                                    </div>
+                                    <div class="6u">
+                                         <asp:TextBox ID="Txtmail" runat="server" placeholder="Email ID" class="text">
+                                         </asp:TextBox>
+                                         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
+                                            ControlToValidate="Txtmail" ErrorMessage="Re-Check!" 
+                                            ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="#FF5050">
+                                         </asp:RegularExpressionValidator>
+                                    </div>
+                                 </div>
+                                 <div class="row half">
+                                     <div class="6u">
+                                            <asp:TextBox ID="Txtroll" runat="server" placeholder="*Roll No" class="text">
+                                            </asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
+                                                ControlToValidate="Txtroll" ErrorMessage="Roll-No Please!" ForeColor="#FF5050">
+                                            </asp:RequiredFieldValidator>
+                                      </div>
+									  <div class="6u">
+                                            <asp:TextBox ID="Txtjee" runat="server" placeholder="JEE Rank" class="text">
+                                            </asp:TextBox>
+                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" 
+                                                ControlToValidate="Txtjee" ErrorMessage="Please Re-Check!" 
+                                                ValidationExpression="\d{6}" ForeColor="#FF5050">
+                                            </asp:RegularExpressionValidator>
+                                      </div>
+                                 </div>
+                                 <div class="row half">                          
+                                      <div class="6u">
+                                           <asp:TextBox ID="Txtinst" runat="server" placeholder="*Institute" class="text">
+                                           </asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
+                                                ControlToValidate="Txtinst" ErrorMessage="institute Please!" ForeColor="#FF5050">
+                                            </asp:RequiredFieldValidator>
+                                        </div>
+                                        <div class="6u">                                 
+                                            <asp:TextBox ID="Txtbranch" runat="server" placeholder="Branch" class="text">
+                                            </asp:TextBox>
+                                        </div>
+                                 </div>
+                                 <div class="row half" >    
+                                      <div class="6u">
+                                           <asp:TextBox ID="Txtpass" runat="server" placeholder="*Password" class="text" type="password">
+                                           </asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
+                                            ControlToValidate="Txtpass" ErrorMessage="Password Please!" ForeColor="#FF5050">
+                                            </asp:RequiredFieldValidator>
+                                        </div>
+                                        <div class="6u">
+                                            <asp:FileUpload ID="FileUpload1" runat="server" class="text">
+                                            </asp:FileUpload>
+                                        </div>
+                                   </div>
+								</div>
+								
+                             <!-- Submit -->
+								<div class="row">
+									<div class="12u">
+									    <asp:Button ID="Btnsubmit" runat="server" Text="Submit" 
+                                            onclick="Btnsubmit_Click" CssClass="button"></asp:Button>
+									</div>
+								</div>
+							</form>
+                         </div>
+   </div>
+ </section>                   
+</asp:Content>
