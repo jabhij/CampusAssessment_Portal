@@ -12,57 +12,7 @@
             </div>
 			<div class="container">
 				<header>
-			  	   <p class="alt">This website is all about<strong> Online Assessment</strong> conducted by <strong><a href="http://www.contata.com/" target="_blank">Contata Solutions</a></strong>, it will take you deeper in 
-							the ocean of skill testing in Apptitude, Logical reasoning and Comprehensive English along with your Core Technical Domain, that includes Languages (.NET, JAVA, C, C++ etc.), 
-                             Subjects (Networking, Database, Data Structure etc.). So buckle up for the challanges...
-                      <a href="#">Explore Assessments here.</a>
-			  	   </p>
-				</header>												
-			    <footer>
-					<a href="#Explore Assessments" class="button scrolly">Skip</a>
-				</footer>
-			</div>
-		</section>
-
-        <!-- Content Section -->
-        <section id="Explore Assessments" class="two">
-			<div class="container">			
-			   <header>
-					<h2>Explore Assessments</h2>
-	   		   </header>		
-			<div class="row">
-				<div class="4u">
-					<article class="item">
-						<a href="Apptitude.htm" class="image full" target="_blank"><img src="images/Quantative-icon.png" alt="Test Your Brain!" /></a>
-   					      <header>
-							<h3>Quantative</h3>
-						  </header>
-					</article>		
-				</div>
-				<div class="4u">
-					<article class="item">
-						<a href="Technical.html" class="image full" target="_blank"><img src="images/Technical-icon.png" alt="Test Your Brain!" /></a>
-							<header>
-							   <h3>Technical</h3>
-							</header>
-					</article>			
-				</div>
-				<div class="4u">
-					<article class="item">
-						<a href="English.html" class="image full" target="_blank"><img src="images/English-icon.png" alt="Test Your Brain!" /></a>
-							<header>
-								<h3>English</h3>
-							</header>
-					</article>
-				</div>
-			</div>
-                            <footer>
-								<a href="#Register" class="button scrolly">Skip</a>
-							</footer>
-			</div>
-		</section>
-
-        <!-- Registeration Section -->
+			  	   <p class="alt">This website is all about<strong> Online Assessment</strong> conducted by <strong><a href="https://github.com/jabhij/" target="_blank">Abhishek Jaiswa;C
     <!--    <section id="Register" class="three">
 			<div class="container">
 				<header>
